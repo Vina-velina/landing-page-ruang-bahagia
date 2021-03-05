@@ -50,7 +50,7 @@ const geolocation = () => {
 	const data = new FormData();
 	let ip = document.getElementById("ip").value;
 	if (ip != "") {
-		fetch("http://www.geoplugin.net/json.gp?ip=" + ip, {
+		fetch("https://www.geoplugin.net/json.gp?ip=" + ip, {
 			method: "POST",
 			body: data,
 		})

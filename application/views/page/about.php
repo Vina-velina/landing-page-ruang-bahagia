@@ -167,6 +167,171 @@
             </div>
         </section>
         <!-- achievement area end -->
+        <!-- team area start -->
+        <section class="team__area pt-115 pb-110">
+            <div class="container">
+                <div class="row align-items-center mb-55">
+                    <div class="col-xl-6 col-lg-8 col-md-8 col-sm-8">
+                        <div class="section__title section__title-3 mb-30">
+                            <span>Tim Kami</span>
+                            <h2>Tim Solid yang senantiasa membantu Anda</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="team__item p-relative text-center fix mb-30 wow fadeInUp" data-wow-delay=.2s>
+                            <div class="team__thumb mb-25">
+                                <img src="<?= base_url() ?>assets/img/team/irfan.jpg" alt="team">
+                                <div class="team__info text-left">
+                                    <h3><a href="team-details.html"> <br> Irfan Walhidayah</a></h3>
+                                    <span>CEO/Co-Founder</span>
+                                </div>
+                                <div class="team__social theme-social">
+                                    <ul>
+                                        <li>
+                                            <a href="https://www.facebook.com/IrfanWalhidayah">
+                                                <i class="fab fa-facebook-f"></i>
+                                                <i class="fab fa-facebook-f"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.instagram.com/irfanwalhidayah_?r=nametag">
+                                                <i class="fab fa-instagram"></i>
+                                                <i class="fab fa-instagram"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="mailto:irfanwalhidayah@gmail.com">
+                                                <i class="fab fa-google"></i>
+                                                <i class="fab fa-google"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="team__content">
+                                <h3><a href="team-details.html"> <br> Irfan Walhidayah</a></h3>
+                                <span>CEO/Co-Founder</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="team__item p-relative text-center fix mb-30 wow fadeInUp" data-wow-delay=.4s>
+                            <div class="team__thumb mb-25">
+                                <img src="<?= base_url()           ?>assets/img/team/dina.jpg" alt="team">
+                                <div class="team__info text-left">
+                                    <h3><a href="team-details.html"> <br> Fachradina Yuniar</a></h3>
+                                    <span>CMO/Co-Founder</span>
+                                </div>
+                                <div class="team__social theme-social">
+                                    <ul>
+                                        <li>
+                                            <a href="https://www.facebook.com/imen54540">
+                                                <i class="fab fa-facebook-f"></i>
+                                                <i class="fab fa-facebook-f"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://instagram.com/yuniarfachradina">
+                                                <i class="fab fa-instagram"></i>
+                                                <i class="fab fa-instagram"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="mailto:yuniarfachradina@gmail.com">
+                                                <i class="fab fa-google"></i>
+                                                <i class="fab fa-google"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="team__content">
+                                <h3><a href="team-details.html"> <br> Fachradina Yuniar</a></h3>
+                                <span>CMO/Co-Founder</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="team__item p-relative text-center fix mb-30 wow fadeInUp" data-wow-delay=.6s>
+                            <div class="team__thumb mb-25">
+                                <img src="<?= base_url() ?>assets/img/team/yan.jpg" alt="team">
+                                <div class="team__info text-left">
+                                    <h3><a href="team-details.html">I Gede Riyan Ardi Darmawan</a></h3>
+                                    <span>CTO/Co-Founder</span>
+                                </div>
+                                <div class="team__social theme-social">
+                                    <ul>
+                                        <li>
+                                            <a href="https://www.facebook.com/royale.arena/">
+                                                <i class="fab fa-facebook-f"></i>
+                                                <i class="fab fa-facebook-f"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.instagram.com/gd.yan_">
+                                                <i class="fab fa-instagram"></i>
+                                                <i class="fab fa-instagram"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="mailto:riyan.clsg11@gmail.com">
+                                                <i class="fab fa-google"></i>
+                                                <i class="fab fa-google"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="team__content">
+                                <h3><a href="team-details.html">I Gede Riyan Ardi Darmawan</a></h3>
+                                <span>CTO/Co-Founder</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="team__item p-relative text-center fix mb-30 wow fadeInUp" data-wow-delay=.8s>
+                            <div class="team__thumb mb-25">
+                                <img src="<?= base_url()           ?>assets/img/team/arpin.jpg" alt="team">
+                                <div class="team__info text-left">
+                                    <h3><a href="team-details.html">I Gede Anggie Suardika Arpin</a></h3>
+                                    <span>CTO/Co-Founder</span>
+                                </div>
+                                <div class="team__social theme-social">
+                                    <ul>
+                                        <li>
+                                            <a href="https://web.facebook.com/anggie.arpin.9/">
+                                                <i class="fab fa-facebook-f"></i>
+                                                <i class="fab fa-facebook-f"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.instagram.com/arpin_2286/">
+                                                <i class="fab fa-instagram"></i>
+                                                <i class="fab fa-instagram"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="mailto:anggie.arpin.1@gmail.com">
+                                                <i class="fab fa-google"></i>
+                                                <i class="fab fa-google"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="team__content">
+                                <h3><a href="team-details.html">I Gede Anggie Suardika Arpin</a></h3>
+                                <span>CTO/Co-Founder</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- team area end -->
 
         <!-- brand area start -->
         <section class="brand__area p-relative pt-160 pb-50">
