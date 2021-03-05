@@ -65,8 +65,10 @@
                         <div class="col-xl-6 col-lg-5 col-md-4">
                             <div class="header__social">
                                 <ul>
-                                    <li><a href="<?= base_url() ?>#"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="<?= base_url() ?>#"><i class="fab fa-instagram"></i></a></li>
+                                    <li><a href="https://m.facebook.com/devata.devata.906?ref=bookmarks"><i
+                                                class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="https://www.instagram.com/ruangbahagia1/"><i
+                                                class="fab fa-instagram"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -74,9 +76,9 @@
                             <div class="header__info f-right">
                                 <ul>
                                     <li>
-                                        <a href="tel:(+468)-254-762-443">
+                                        <a href="https://api.whatsapp.com/send?phone=628983197636">
                                             <i class="fab fa-whatsapp"></i>
-                                            (+468) 254 762 443
+                                            +62 898-3197-636
                                         </a>
                                     </li>
                                     <li>
@@ -97,8 +99,10 @@
                             <div class="col-xl-6 col-lg-5 col-md-4">
                                 <div class="header__social">
                                     <ul>
-                                        <li><a href="<?= base_url() ?>#"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="<?= base_url() ?>#"><i class="fab fa-instagram"></i></a></li>
+                                        <li><a href="https://m.facebook.com/devata.devata.906?ref=bookmarks"><i
+                                                    class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="https://www.instagram.com/ruangbahagia1/"><i
+                                                    class="fab fa-instagram"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -106,9 +110,9 @@
                                 <div class="header__info f-right">
                                     <ul>
                                         <li>
-                                            <a href="tel:(+468)-254-762-443">
+                                            <a href="https://api.whatsapp.com/send?phone=628983197636">
                                                 <i class="fab fa-whatsapp"></i>
-                                                (+468) 254 762 443
+                                                +62 898-3197-636
                                             </a>
                                         </li>
                                         <li>
@@ -177,9 +181,11 @@
                                         </div>
                                         <div class="header__btn d-none d-sm-block d-lg-none d-xl-block ml-50">
                                             <?php if ($id_header == 1) : ?>
-                                            <a href="<?= base_url() ?>home/contact" class="z-btn">Demo Aplikasi</a>
+                                            <a href="https://xd.adobe.com/view/0644a229-2706-4700-8c4f-b55142be9ee7-5317/?fullscreen&hints=off "
+                                                class="z-btn">Demo Aplikasi</a>
                                             <?php else : ?>
-                                            <a href="home/contact" class="z-btn z-btn-white">Demo Aplikasi</a>
+                                            <a href="https://xd.adobe.com/view/0644a229-2706-4700-8c4f-b55142be9ee7-5317/?fullscreen&hints=off "
+                                                class="z-btn z-btn-white">Demo Aplikasi</a>
                                             <?php endif; ?>
                                         </div>
                                         <div class="sidebar__menu d-lg-none">
@@ -227,8 +233,9 @@
                             role="tab" aria-controls="menu" aria-selected="true">menu</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="info-tab" data-toggle="tab" href="<?= base_url() ?>#info" role="tab"
-                            aria-controls="info" aria-selected="false">demo</a>
+                        <a class="nav-link" id="info-tab" data-toggle="tab"
+                            href="https://xd.adobe.com/view/0644a229-2706-4700-8c4f-b55142be9ee7-5317/?fullscreen&hints=off "
+                            role="tab" aria-controls="info" aria-selected="false">demo</a>
                     </li>
                 </ul>
             </div>

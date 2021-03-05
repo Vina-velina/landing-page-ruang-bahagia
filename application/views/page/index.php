@@ -40,8 +40,8 @@
                             <p class="wow fadeInUp" data-wow-delay=".6s">Bicarakan isi hatimu, dapatkan pencerahan atas
                                 masalahmu.
                                 Privasi dan kerahasiaanmu aman dalam lindungan Kode Etik Psikologi.</p>
-                            <a href="<?= base_url() ?>about.html" class="z-btn z-btn-border wow fadeInUp"
-                                data-wow-delay=".8s">Demo Aplikasi</a>
+                            <a href="https://xd.adobe.com/view/0644a229-2706-4700-8c4f-b55142be9ee7-5317/?fullscreen&hints=off "
+                                class="z-btn z-btn-border wow fadeInUp" data-wow-delay=".8s">Demo Aplikasi</a>
                         </div>
                     </div>
                 </div>
@@ -52,7 +52,7 @@
 
     <!-- services area start -->
     <section class="services__area-2 mt--120 pt-270 pb-140 p-relative"
-        data-background="<?=base_url()?>assets/img/bg/wave-bg-2.png">
+        data-background="<?= base_url() ?>assets/img/bg/wave-bg-2.png">
         <div class="container">
             <div class="row no-gutters">
                 <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
@@ -258,8 +258,8 @@
                                 <div class="project__no">
                                     <h5>1</h5>
                                 </div>
-                                <h3><a href="<?= base_url() ?>portfolio-details.html">Organizational <br> design for
-                                        business</a>
+                                <h3><a href="<?= base_url() ?>portfolio-details.html">Unduh dan Login <br> pada
+                                        Aplikasinya</a>
                                 </h3>
                             </div>
                             <div class="project__thumb m-img">
@@ -271,9 +271,8 @@
                                 <div class="project__no">
                                     <h5>2</h5>
                                 </div>
-                                <h3><a href="<?= base_url() ?>portfolio-details.html">Solve customer <br>problems in
-                                        a
-                                        flash</a></h3>
+                                <h3><a href="<?= base_url() ?>portfolio-details.html">Tentukan jadwal<br>dan Psikolog
+                                        Anda</a></h3>
                             </div>
                             <div class="project__thumb m-img">
                                 <img src="<?= base_url() ?>assets/img/project/project-2.png" alt="">
@@ -284,9 +283,7 @@
                                 <div class="project__no">
                                     <h5>3</h5>
                                 </div>
-                                <h3><a href="<?= base_url() ?>portfolio-details.html">Solve customer <br>problems in
-                                        a
-                                        flash</a></h3>
+                                <h3><a href="<?= base_url() ?>portfolio-details.html">Bicarakan masalah Anda</a></h3>
                             </div>
                             <div class="project__thumb m-img">
                                 <img src="<?= base_url() ?>assets/img/project/project-2.png" alt="">
@@ -364,25 +361,8 @@
 
                                 <div id="collapse_3" class="collapse" aria-labelledby="acc_3" data-parent="#accordion">
                                     <div class="card-body">
-                                        <p>Tentu saja, Anda dapat mengatur jadwal konseling dengan </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card wow fadeInRight" data-wow-delay=".8s">
-                                <div class="card-header" id="acc_4">
-                                    <h5 class="mb-0">
-                                        <button class="btn btn-link collapsed" data-toggle="collapse"
-                                            data-target="#collapse_4" aria-expanded="true" aria-controls="collapse_4">
-                                            How do you calculate cost of services?
-                                        </button>
-                                    </h5>
-                                </div>
-
-                                <div id="collapse_4" class="collapse" aria-labelledby="acc_4" data-parent="#accordion">
-                                    <div class="card-body">
-                                        <p>He nicked it show off show pick your nose and blow off such a fiber
-                                            bleeding well get stuffed mate no biggie, in my flat bugger wind up
-                                            cheesed off blower burke james bond cheeky.</p>
+                                        <p>Tentu saja, Anda dapat mengatur jadwal konseling dan bahkan psikolog Anda
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -395,7 +375,7 @@
     <!-- faq area end -->
 
     <!-- cta area start -->
-    <section class="cta__area pt-180 pb-155" data-background="<?=base_url()?>assets/img/cta/cta-bg.jpg">
+    <section class="cta__area pt-180 pb-155" data-background="<?= base_url() ?>assets/img/cta/cta-bg.jpg">
         <div class="container">
             <div class="row">
                 <div class="col-xl-10 offset-xl-1">

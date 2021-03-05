@@ -22,6 +22,7 @@ class Home extends CI_Controller {
 	public function about()
 	{
 		$this->data['id_header'] = 2;
+		$this->data['pengunjung'] = $this->All_model->getPengunjungWebsite();
 		$this->load->view('master/header',$this->data);
 		$this->load->view('page/about',$this->data);
 		$this->load->view('master/footer',$this->data);
@@ -74,6 +75,24 @@ class Home extends CI_Controller {
 			} else {
 				// echo $this->email->print_debugger();
 				echo false;
+			}
+		}
+	}
+	public function pengunjung()
+	{
+		if (!empty($_POST)) {
+			if ($this->agent->is_browser()) {
+				$agent = $this->agent->browser() . ' ' . $this->agent->version();
+			} elseif ($this->agent->is_mobile()) {
+				$agent = $this->agent->mobile();
+			} else {
+				$agent = 'Data user gagal di dapatkan';
+			}
+			$asal = $_POST['kota'] . ", " . $_POST['daerah'];
+			if ($this->All_model->setPengunjungWebsite($this->input->ip_address(), $agent, $this->agent->platform(), $asal)) {
+				echo "";
+			} else {
+				echo "Ajax Load Failed";
 			}
 		}
 	}

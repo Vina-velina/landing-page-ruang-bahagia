@@ -2,14 +2,14 @@
 
         <!-- page title area start -->
         <section class="page__title p-relative d-flex align-items-center fix"
-            data-background="<?=base_url()?>assets/img/page-title/page-title-1.jpg">
+            data-background="<?= base_url() ?>assets/img/page-title/page-title-1.jpg">
             <div class="slider__shape">
-                <img class="shape triangle" src="<?=base_url()?>assets/img/icon/slider/triangle.png" alt="triangle">
-                <img class="shape dotted-square" src="<?=base_url()?>assets/img/icon/slider/dotted-square.png"
+                <img class="shape triangle" src="<?= base_url() ?>assets/img/icon/slider/triangle.png" alt="triangle">
+                <img class="shape dotted-square" src="<?= base_url() ?>assets/img/icon/slider/dotted-square.png"
                     alt="dotted-square">
-                <img class="shape solid-square" src="<?=base_url()?>assets/img/icon/slider/solid-square.png"
+                <img class="shape solid-square" src="<?= base_url() ?>assets/img/icon/slider/solid-square.png"
                     alt="solid-square">
-                <img class="shape circle-2" src="<?=base_url()?>assets/img/icon/slider/circle.png" alt="circle">
+                <img class="shape circle-2" src="<?= base_url() ?>assets/img/icon/slider/circle.png" alt="circle">
             </div>
             <div class="container">
                 <div class="row">
@@ -35,9 +35,9 @@
                 <div class="row">
                     <div class="col-xl-6 pr-0 col-lg-6">
                         <div class="about__thumb m-img wow fadeInLeft" data-wow-delay=".2s">
-                            <img src="<?=base_url()?>assets/img/about/about-1.jpg" alt="">
+                            <img src="<?= base_url() ?>assets/img/about/about-1.jpg" alt="">
                             <div class="about__shape">
-                                <img src="<?=base_url()?>assets/img/about/red-shape.png" alt="">
+                                <img src="<?= base_url() ?>assets/img/about/red-shape.png" alt="">
                             </div>
                         </div>
                     </div>
@@ -45,22 +45,12 @@
                         <div class="about__content wow fadeInRight" data-wow-delay=".4">
                             <div class="section__title mb-25">
                                 <span>Siapa Kami?</span>
-                                <h2>We Unlock Potential</h2>
+                                <h2>Menghadirkan Kebahagiaan</h2>
                             </div>
-                            <p>Why I say old chap that is spiffing do one, cup of char bite your arm off lavatory bugger
-                                all mate bog-standard bits and bobs I'm telling barmy blow.</p>
-                            <div class="about__list">
-                                <ul>
-                                    <li class="wow fadeInUp" data-wow-delay=".6s"><span><i
-                                                class="far fa-check"></i>Innovative ideas</span></li>
-                                    <li class="wow fadeInUp" data-wow-delay=".8s"><span><i
-                                                class="far fa-check"></i>Professional assistance</span></li>
-                                    <li class="wow fadeInUp" data-wow-delay="1s"><span><i
-                                                class="far fa-check"></i>Financial advisory</span></li>
-                                </ul>
-                            </div>
-                            <a href="about.html" class="z-btn wow fadeInUp" data-wow-delay="1.2s">What we do<i
-                                    class="far fa-long-arrow-right"></i></a>
+                            <p>Sejak awal dibentuk, Ruang Bahagia selalu berkomitmen dalam mewujudkan kebahagiaan pada
+                                tiap diri pasien. Kami bekerja dengan sepenuh hati dengan tetap mengutamakan privasi
+                                pasien. Kami menghubungkan setiap insan yang ingin bertumbuh — dengan Konselor
+                                yang bisa memfasilitasi pertumbuhan mereka.</p>
                         </div>
                     </div>
                 </div>
@@ -71,14 +61,14 @@
 
         <!-- faq area start -->
         <section class="faq__area p-relative pt-135 pb-120 grey-bg-12">
-            <div class="faq__thumb" data-background="<?=base_url()?>assets/img/faq/faq-1.jpg"></div>
+            <div class="faq__thumb" data-background="<?= base_url() ?>assets/img/faq/faq-1.jpg"></div>
             <div class="container">
                 <div class="row">
                     <div class="col-xl-5 offset-xl-7 col-lg-6 offset-lg-6 col-md-7 offset-md-5">
                         <div class="faq__wrapper">
                             <div class="section__title section__title-3 mb-25 wow fadeInUp" data-wow-delay=".2s">
-                                <span>Thinking</span>
-                                <h2>Knowledge is <br> the best investment</h2>
+                                <span>Ketahui</span>
+                                <h2>Kenapa Harus Kami?</h2>
                             </div>
                             <div id="accordion">
                                 <div class="card wow fadeInUp" data-wow-delay=".4s">
@@ -87,7 +77,7 @@
                                             <button class="btn btn-link" data-toggle="collapse"
                                                 data-target="#collapseOne" aria-expanded="true"
                                                 aria-controls="collapseOne">
-                                                No rocket science included
+                                                Praktis
                                             </button>
                                         </h5>
                                     </div>
@@ -95,8 +85,8 @@
                                     <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
                                         data-parent="#accordion">
                                         <div class="card-body">
-                                            Nancy boy it's all gone to pot grub absolutely bladdered some dodgy chav owt
-                                            to do with me vagabond only.!
+                                            Karena dilakukan secara online kamu bisa konseling di tempat ternyamanmu dan
+                                            tidak perlu keluar menuju tempat psikologmu
                                         </div>
                                     </div>
                                 </div>
@@ -106,15 +96,14 @@
                                             <button class="btn btn-link collapsed" data-toggle="collapse"
                                                 data-target="#collapseTwo" aria-expanded="false"
                                                 aria-controls="collapseTwo">
-                                                Blazing Site Performance
+                                                Efektif
                                             </button>
                                         </h5>
                                     </div>
                                     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
                                         data-parent="#accordion">
                                         <div class="card-body">
-                                            Nancy boy it's all gone to pot grub absolutely bladdered some dodgy chav owt
-                                            to do with me vagabond only.!
+                                            Konseling online via telepon/video call sehingga praktis tapi tetap efektif.
                                         </div>
                                     </div>
                                 </div>
@@ -124,15 +113,14 @@
                                             <button class="btn btn-link collapsed" data-toggle="collapse"
                                                 data-target="#collapseThree" aria-expanded="false"
                                                 aria-controls="collapseThree">
-                                                Bonus Plugins Included
+                                                Terjangkau
                                             </button>
                                         </h5>
                                     </div>
                                     <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
                                         data-parent="#accordion">
                                         <div class="card-body">
-                                            Nancy boy it's all gone to pot grub absolutely bladdered some dodgy chav owt
-                                            to do with me vagabond only.!
+                                            Lebih murah dibanding konseling tatap muka.
                                         </div>
                                     </div>
                                 </div>
@@ -151,26 +139,11 @@
                     <div class="col-xl-5 col-lg-6 col-md-6">
                         <div class="achievement__content">
                             <div class="section__title section__title-3 mb-20">
-                                <span class="wow fadeInUp" data-wow-delay=".2s">Achievement</span>
-                                <h2 class="wow fadeInUp" data-wow-delay=".4s">We are certified financial experts</h2>
+                                <span class="wow fadeInUp" data-wow-delay=".2s">Psikolog</span>
+                                <h2 class="wow fadeInUp" data-wow-delay=".4s">Psikolog Yang Berpengalaman</h2>
                             </div>
-                            <p class="wow fadeInUp" data-wow-delay=".6s">He nicked it fantastic well on your bike mate
-                                have it a I bum bag I twit easy peasy that, chimney pot amongst are you taking the piss
-                                daft show off show off pick.</p>
-                            <div class="achievement__wrapper d-flex d-md-block d-lg-flex justify-content-between mb-35 wow fadeInUp"
-                                data-wow-delay=".8s">
-                                <div class="achievement__item mb-30">
-                                    <img src="<?=base_url()?>assets/img/icon/achievement/achievement-1.png"
-                                        alt="achievement">
-                                    <h3>Acquisitions Finance Consulting</h3>
-                                </div>
-                                <div class="achievement__item mb-30 wow fadeInUp" data-wow-delay="1s">
-                                    <img src="<?=base_url()?>assets/img/icon/achievement/achievement-2.png"
-                                        alt="achievement">
-                                    <h3>Private Placement Consulting</h3>
-                                </div>
-                            </div>
-                            <a href="about.html" class="z-btn">Learn More</a>
+                            <p class="wow fadeInUp" data-wow-delay=".6s">Kami bekerjasama dengan beberapa psikolog
+                                pada Ikatan Psikolog Klinis Indonesia.</p>
                         </div>
                     </div>
                     <div class="col-xl-7 col-lg-6 col-md-6">
@@ -178,14 +151,14 @@
                             <div class="col-xl-7 col-sm-6">
                                 <div class="achievement__thumb m-img pl-30 text-right wow fadeInRight"
                                     data-wow-delay=".8s">
-                                    <img src="<?=base_url()?>assets/img/achievement/achievement-1.jpg"
-                                        alt="achievement-1">
+                                    <img src="<?= base_url() ?>assets/img/achievement/psikoterapi1.jpeg"
+                                        alt=" achievement-1">
                                 </div>
                             </div>
                             <div class="col-xl-5 col-sm-6 d-md-none d-lg-none d-xl-block wow fadeInRight"
                                 data-wow-delay="1s">
                                 <div class="achievement__thumb w-img">
-                                    <img src="<?=base_url()?>assets/img/achievement/achievement-2.jpg" alt="">
+                                    <img src="<?= base_url() ?>assets/img/achievement/psikoterapi2.jpeg" alt="">
                                 </div>
                             </div>
                         </div>
@@ -198,62 +171,21 @@
         <!-- brand area start -->
         <section class="brand__area p-relative pt-160 pb-50">
             <div class="brand__shape">
-                <img class="square" src="<?=base_url()?>assets/img/icon/brand/square.png" alt="">
-                <img class="circle" src="<?=base_url()?>assets/img/icon/brand/circle.png" alt="">
-                <img class="circle-2" src="<?=base_url()?>assets/img/icon/brand/circle-2.png" alt="">
-                <img class="triangle" src="<?=base_url()?>assets/img/icon/brand/trianlge.png" alt="">
+                <img class="square" src="<?= base_url() ?>assets/img/icon/brand/square.png" alt="">
+                <img class="circle" src="<?= base_url() ?>assets/img/icon/brand/circle.png" alt="">
+                <img class="circle-2" src="<?= base_url() ?>assets/img/icon/brand/circle-2.png" alt="">
+                <img class="triangle" src="<?= base_url() ?>assets/img/icon/brand/trianlge.png" alt="">
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-4 offset-xl-1 col-lg-4 offset-lg-1">
-                        <div class="section__title mb-30">
-                            <span>Our Clients</span>
-                        </div>
-                    </div>
                     <div class="col-xl-6 col-lg-7">
                         <div class="section__title section__title-3 wow fadeInUp" data-wow-delay=".2s">
-                            <h2>More than 7,962 designers use konsul.</h2>
+                            <h2>Pengunjung Website</h2>
                         </div>
                         <div class="brand__subtitle mb-90 wow fadeInUp" data-wow-delay=".4s">
-                            <p>Design anything from simple icons to fully featured websites and applications.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xl-12">
-                        <div class="brand__slider owl-carousel wow fadeInUp" data-wow-delay=".6s">
-                            <div class="brand__item-wrapper">
-                                <div class="brand__item">
-                                    <img src="<?=base_url()?>assets/img/brand/brand-1.png" alt="">
-                                </div>
-                                <div class="brand__item">
-                                    <img src="<?=base_url()?>assets/img/brand/brand-5.png" alt="">
-                                </div>
-                            </div>
-                            <div class="brand__item-wrapper">
-                                <div class="brand__item">
-                                    <img src="<?=base_url()?>assets/img/brand/brand-2.png" alt="">
-                                </div>
-                                <div class="brand__item">
-                                    <img src="<?=base_url()?>assets/img/brand/brand-6.png" alt="">
-                                </div>
-                            </div>
-                            <div class="brand__item-wrapper">
-                                <div class="brand__item">
-                                    <img src="<?=base_url()?>assets/img/brand/brand-3.png" alt="">
-                                </div>
-                                <div class="brand__item">
-                                    <img src="<?=base_url()?>assets/img/brand/brand-7.png" alt="">
-                                </div>
-                            </div>
-                            <div class="brand__item-wrapper">
-                                <div class="brand__item">
-                                    <img src="<?=base_url()?>assets/img/brand/brand-4.png" alt="">
-                                </div>
-                                <div class="brand__item">
-                                    <img src="<?=base_url()?>assets/img/brand/brand-8.png" alt="">
-                                </div>
-                            </div>
+                            <p>Kami telah dikunjungi <?= $pengunjung ?> orang di seluruh dunia yang
+                                ingin
+                                berkonsultasi terkait masalahnya.</p>
                         </div>
                     </div>
                 </div>

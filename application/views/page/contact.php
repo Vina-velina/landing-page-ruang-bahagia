@@ -39,8 +39,8 @@
             <div class="row">
                 <div class="col-xl-5 offset-xl-1">
                     <div class="section__title section__title-3 mb-55">
-                        <span class="fadeInUp wow" data-wow-delay=".2s">Contact</span>
-                        <h2 class="fadeInUp wow" data-wow-delay=".4s">Help Center</h2>
+                        <span class="fadeInUp wow" data-wow-delay=".2s">Kontak</span>
+                        <h2 class="fadeInUp wow" data-wow-delay=".4s">Hubungi Kami Melalui Email</h2>
                     </div>
                 </div>
             </div>
@@ -52,8 +52,8 @@
                         </div>
                         <div class="contact__text">
                             <h3>Customer Support</h3>
-                            <p>Naff the wireless barney bodge lurgy cuppa cheeky.</p>
-                            <a href="contact.html" class="z-btn z-btn-border">Visit Support Forum</a>
+
+
                         </div>
                     </div>
                 </div>
@@ -63,9 +63,9 @@
                             <img src="<?= base_url() ?>assets/img/icon/contact/msg.png" alt="">
                         </div>
                         <div class="contact__text">
-                            <h3>Any Questions</h3>
-                            <p>Naff the wireless barney bodge lurgy cuppa cheeky.</p>
-                            <a href="contact.html" class="z-btn z-btn-border">Contact Support</a>
+                            <h3>Pertanyaan Lain</h3>
+
+
                         </div>
                     </div>
                 </div>
@@ -95,8 +95,8 @@
                                     </li>
                                     <li>
                                         <h4>Whatsapp</h4>
-                                        <p><a href="tel:(404)-888-123-456">(404) 888 123 456</a></p>
-                                        <p><a href="tel:(204)-888-234-674">(204) 888 234 674</a></p>
+                                        <p><a href="https://api.whatsapp.com/send?phone=628983197636">+62
+                                                898-3197-636</a></p>
                                     </li>
                                     <li>
                                         <h4>Alamat Email</h4>

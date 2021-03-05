@@ -1,3 +1,4 @@
+<input type="hidden" id="ip" value="<?= $this->input->ip_address() ?>">
 <!-- footer area start -->
 <footer>
     <div class="footer__area grey-bg pt-100">
@@ -69,7 +70,7 @@
                                             </div>
                                             <div class="text theme-color ">
                                                 <p><a
-                                                        href="mailtp:ruangbahagia30@gmail.com"><span>ruangbahagia30@gmail.com</span></a>
+                                                        href="mailto:ruangbahagia30@gmail.com"><span>ruangbahagia30@gmail.com</span></a>
                                                 </p>
                                             </div>
                                         </li>
@@ -78,9 +79,9 @@
                                                 <i class="fas fa-phone-alt"></i>
                                             </div>
                                             <div class="text theme-color">
-                                                <p><a href="<?= base_url() ?>tel:(+642)-394-396-432">(+642) 394
-                                                        396
-                                                        432</a></p>
+                                                <p><a
+                                                        href="https://api.whatsapp.com/send?phone=628983197636https://api.whatsapp.com/send?phone=628983197636">+62
+                                                        898-3197-636</a></p>
                                             </div>
                                         </li>
                                     </ul>
@@ -88,13 +89,13 @@
                                 <div class="footer__social theme-social">
                                     <ul>
                                         <li>
-                                            <a href="<?= base_url() ?>#">
+                                            <a href="https://m.facebook.com/devata.devata.906?ref=bookmarks">
                                                 <i class="fab fa-facebook-f"></i>
                                                 <i class="fab fa-facebook-f"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="<?= base_url() ?>#">
+                                            <a href="https://www.instagram.com/ruangbahagia1/">
                                                 <i class="fab fa-instagram"></i>
                                                 <i class="fab fa-instagram"></i>
                                             </a>
@@ -128,13 +129,11 @@
 
 <!-- JS here -->
 <script src="<?= base_url() ?>assets/js/vendor/jquery-3.5.1.min.js"></script>
-<?php if ($id_header == 3) : ?>
 <script>
-const baseURL = "<?=base_url()?>";
+const baseURL = "<?= base_url() ?>";
 </script>
-<script src="<?=base_url()?>assets/js/sweetalert2.js"></script>
+<script src="<?= base_url() ?>assets/js/sweetalert2.js"></script>
 <script src="<?= base_url() ?>assets/js/ajax-form.js"></script>
-<?php endif; ?>
 <script src="<?= base_url() ?>assets/js/parallax.min.js"></script>
 <script src="<?= base_url() ?>assets/js/vendor/waypoints.min.js"></script>
 <script src="<?= base_url() ?>assets/js/bootstrap.bundle.min.js"></script>
