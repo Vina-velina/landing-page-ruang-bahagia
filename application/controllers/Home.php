@@ -45,6 +45,7 @@ class Home extends CI_Controller {
 			} else {
 				$agent = 'Data user gagal di dapatkan';
 			}
+		
 			$message = "[ Email Pengirim : " . $_POST['email'] . ", IP Address : " . $ip . ", Platform : " . $this->agent->platform() . ",Browser : " . $agent . " ] ~ " . $_POST['pesan'];
 			
 			// Konfigurasi Send Email
